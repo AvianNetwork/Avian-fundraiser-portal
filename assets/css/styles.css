@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+body {
+    font-family: 'Comfortaa', cursive;
+    background: linear-gradient(-45deg, #24D4CE, #14F1D9, #1E4E91, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#startpage {
+    backdrop-filter: blur(2rem);
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    margin: 1cm;
+    }
+
+.card {
+    backdrop-filter: blur(2rem);
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border-radius: 2rem; 
+    margin: 1cm;
+}
+
+
+/* #startpage {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: radient 15s ease infinite;
+    background-size: 400% 400%;
+    height: 100vh;
+
+}
+@keyframes radient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
